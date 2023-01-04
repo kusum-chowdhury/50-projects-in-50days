@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+svg {
+    width: 35px;
+   
+}
+.container {
+    width: 100vw;
+  min-height: 100vh;
+  transform-origin: top left;
+/*   transition: transform 0.5s linear;
+  transform: rotate(-20deg); */
+   transition: transform 0.5s linear;
+ transform: rotate(0deg);
+}
+
+.nav-show {
+    transition: transform 0.5s linear;
+  transform: rotate(-20deg);
+}
+
+.closeBtn {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    bottom: 40px;
+    left: 25px;
+}
+
+
+.open {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 25px;
+    bottom: 50px;
+}
+
+body {
+    background-color: #1D1E22;
+}
+
+
+article {
+    background-color: white;
+    height: 100%;
+    /* transform: rotate(-20deg);
+    transform: rotate(-70deg); */
+    padding-bottom: 2rem
+}
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+img {
+    width: 1000px;
+    margin-bottom: 1rem;
+}
+p {
+    line-height: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-bottom: 1rem;
+}
+nav {
+    position: fixed;
+   top: 700px;
+   z-index: 1;
+  left: -200px;
+  bottom: 200px;
+   transition: all 400ms ease-in;
+/*   margin-left: -150px */
+  color: white;
+  transition: all 400ms ease-in;
+    rotate: 20deg;
+}
+.show-nav {
+    transition: all 1ms ease-in;
+   
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+li {
+    list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+
+.circle {
+   
+    width: 200px;
+    height: 200px;
+    background-color: #91984A;
+    border-radius: 50%;
+    /* margin-top: -90px;
+    margin-left: -100px;
+    rotate: -80deg; */
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    rotate: 0deg;
+    transition: all 400ms ease-in;
+}
+
+.rotate {
+   rotate: -90deg;
+    transition: all 400ms ease-in;
+}
