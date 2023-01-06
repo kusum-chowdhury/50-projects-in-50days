@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   transform: translateX(400%);
+   transition: transform .6s ease;
+}
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+
+.box.show {
+    transform: translateX(0);
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
