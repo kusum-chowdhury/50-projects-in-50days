@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+    background-color: palevioletred;
+}
+#buttons {
+    display: flex;
+    gap: 5rem;
+}
+.btn {
+    padding: 1.5rem;
+    background-color: rgb(161, 76, 105);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-transform: capitalize;
+}
+.btn:hover {
+    border: .5px solid black;
+    background-color: rgb(170, 85, 113);
+}
