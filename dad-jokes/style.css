@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-color: blueviolet;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.joke {
+   padding: 4rem;
+    width: 500px;
+    font-size: 2rem;
+    text-align: center;
+}
+.container {
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.jokeBtn {
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(159, 107, 207);
+    color: white;
+}
